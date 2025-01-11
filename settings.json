@@ -1,0 +1,36 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "cSpell.userWords": [
+        "yolo"
+    ],
+    "black-formatter.args": [
+        "--skip-string-normalization"
+    ],
+    "editor.rulers": [
+        {
+            "color": "#8c987e", // dark theme; light: "#e8e9eb"
+            "column": 79
+        },
+        {
+            "color": "#514323", // dark theme; light: "#f5f6f7"
+            "column": 72
+        }
+    ],
+
+    "workbench.colorTheme": "Visual Studio Light",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "accessibility.signals.voiceRecordingStarted": {
+        "sound": "auto"
+    },
+    "accessibility.signals.notebookCellCompleted": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+}
